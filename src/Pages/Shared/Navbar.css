@@ -1,0 +1,17 @@
+.navbar-heading-name {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to right, #ffffff 10%, #09e9f1 50%, #00ff08 60%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

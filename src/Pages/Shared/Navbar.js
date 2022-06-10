@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import resume from '../../assets/resume/Md_Rakibul_Islam_Web_Developer_Resume.pdf';
+import './Navbar.css';
 
 const Navbar = () => {
   const menuItems = (
@@ -41,7 +42,7 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <Link to='/' className='btn btn-ghost normal-case text-2xl'>
+        <Link to='/' className='btn btn-ghost normal-case text-2xl navbar-heading-name'>
           Md. Rakibul Islam
         </Link>
       </div>
@@ -49,7 +50,7 @@ const Navbar = () => {
         <ul className='menu menu-horizontal p-0'>{menuItems}</ul>
       </div>
       <div className='navbar-end'>
-        <a href={resume} download className='btn btn-lg'>
+        <a href={resume} download className='btn btn-sm btn-primary'>
           Download Resume
         </a>
       </div>
