@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../assets/resume/Md_Rakibul_Islam_Web_Developer_Resume.pdf';
 
 const Navbar = () => {
   const menuItems = (
@@ -8,16 +9,16 @@ const Navbar = () => {
         <Link to='/'>Home</Link>
       </li>
       <li className='text-md font-bold'>
-        <Link to='/'>Appointment</Link>
+        <Link to='/'>Projects</Link>
       </li>
       <li className='text-md font-bold'>
-        <Link to='/'>Review</Link>
+        <Link to='/'>Blogs</Link>
       </li>
       <li className='text-md font-bold'>
-        <Link to='/'>Contact</Link>
+        <Link to='/'>Contact Me</Link>
       </li>
       <li className='text-md font-bold'>
-        <Link to='/'>About</Link>
+        <Link to='/'>About Me</Link>
       </li>
     </>
   );
@@ -48,9 +49,9 @@ const Navbar = () => {
         <ul className='menu menu-horizontal p-0'>{menuItems}</ul>
       </div>
       <div className='navbar-end'>
-        <Link to={'/'} className='btn btn-lg'>
-          My Resume
-        </Link>
+        <a href={resume} download className='btn btn-lg'>
+          Download Resume
+        </a>
       </div>
     </div>
   );
