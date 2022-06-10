@@ -1,11 +1,14 @@
 import React from 'react';
+import AboutMe from './AboutMe';
 import HomeBanner from './HomeBanner';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className='px-80'>
       <HomeBanner />
-      <h2>I'm Here</h2>
+      <hr className='colored'></hr>
+      <AboutMe />
     </div>
   );
 };

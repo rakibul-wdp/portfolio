@@ -4,24 +4,27 @@ import './HomeBanner.css';
 const HomeBanner = () => {
   return (
     <>
-      <div class='banner-background'></div>
-      <div class='banner-background bg-two'></div>
-      <div class='banner-background bg-three'></div>
-      <div class='banner-background-content'>
-        <div class='hero min-h-[75vh]'>
-          <div class='hero-content flex-col lg:flex-row-reverse'>
+      <div className='banner-background'></div>
+      <div className='banner-background bg-two'></div>
+      <div className='banner-background bg-three'></div>
+      <div className='banner-background-content'>
+        <div className='hero min-h-[70vh]'>
+          <div className='hero-content flex-col lg:flex-row-reverse'>
             <img
               src='https://api.lorem.space/image/movie?w=260&h=400'
-              class='max-w-sm rounded-lg shadow-2xl banner-image-animation'
+              className='max-w-sm rounded-lg shadow-2xl banner-image-animation'
               alt=''
             />
             <div>
-              <h1 class='text-5xl font-bold'>Box Office News!</h1>
-              <p class='py-6'>
+              <h1 className='text-5xl font-bold'>I'm Md. Rakibul Islam</h1>
+              <h2 className='text-3xl font-bold'>Full Stack Web Developer</h2>
+              <p className='py-6'>
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
-                deleniti eaque aut repudiandae et a id nisi.
+                deleniti eaque aut repudiandae et a id nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ullam a tempore esse magnam laudantium rem sint. Ratione nulla enim deserunt culpa odit, sequi natus,
+                assumenda ducimus, adipisci non cum excepturi.
               </p>
-              <button class='btn btn-primary'>Get Started</button>
+              <button className='btn btn-primary'>About Me</button>
             </div>
           </div>
         </div>
