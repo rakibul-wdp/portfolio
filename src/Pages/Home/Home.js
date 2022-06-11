@@ -3,6 +3,7 @@ import AboutMe from './AboutMe';
 import HomeBanner from './HomeBanner';
 import './Home.css';
 import Skills from './Skills';
+import ContactMe from './ContactMe';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <hr className='colored'></hr>
       <Skills />
       <hr className='colored'></hr>
+      <ContactMe />
     </div>
   );
 };
