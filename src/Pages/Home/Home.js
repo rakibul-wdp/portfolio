@@ -12,6 +12,7 @@ const Home = () => {
       <AboutMe />
       <hr className='colored'></hr>
       <Skills />
+      <hr className='colored'></hr>
     </div>
   );
 };
