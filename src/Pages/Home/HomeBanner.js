@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomeBanner.css';
+import rakibulOne from '../../assets/images/rakibul-1.png';
 
 const HomeBanner = () => {
   return (
@@ -10,11 +11,7 @@ const HomeBanner = () => {
       <div className='banner-background-content'>
         <div className='hero min-h-[70vh]'>
           <div className='hero-content flex-col lg:flex-row-reverse'>
-            <img
-              src='https://api.lorem.space/image/movie?w=260&h=400'
-              className='max-w-sm rounded-lg shadow-2xl banner-image-animation'
-              alt=''
-            />
+            <img src={rakibulOne} className='max-w-sm rounded-lg shadow-2xl banner-image-animation' alt='' />
             <div>
               <h1 className='text-5xl font-bold'>I'm Md. Rakibul Islam</h1>
               <h2 className='text-3xl font-bold'>Full Stack Web Developer</h2>

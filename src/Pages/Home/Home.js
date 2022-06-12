@@ -4,6 +4,7 @@ import HomeBanner from './HomeBanner';
 import './Home.css';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
+import Projects from './Projects';
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <AboutMe />
       <hr className='colored'></hr>
       <Skills />
+      <hr className='colored'></hr>
+      <Projects />
       <hr className='colored'></hr>
       <ContactMe />
     </div>
