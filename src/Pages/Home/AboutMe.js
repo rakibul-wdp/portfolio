@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className='hero-content flex-col lg:flex-row'>
         <img src={rakibulTwo} className='max-w-sm rounded-lg shadow-2xl' alt='' />
         <div className='ml-16'>
-          <h1 className='text-5xl font-bold'>Box Office News!</h1>
+          <h1 className='text-5xl font-bold'>I'm Md. Rakibul Islam</h1>
           <p className='py-6'>
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
             deleniti eaque aut repudiandae et a id nisi.
