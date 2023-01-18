@@ -1,4 +1,4 @@
-@keyframes colored {
+/* @keyframes colored {
   0% {
     background-image: -webkit-linear-gradient(
       left,
@@ -788,4 +788,4 @@
   animation-name: colored;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
+} */
