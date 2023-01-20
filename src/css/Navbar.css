@@ -45,3 +45,51 @@
     color: #10101a;
   }
 }
+
+.animation-border {
+  animation-name: color_changed;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes color_changed {
+  from {
+    border-color: #5ff3d1;
+  }
+  to {
+    border-color: #10101a;
+  }
+}
+@-moz-keyframes color_changed {
+  from {
+    border-color: #5ff3d1;
+  }
+  to {
+    border-color: #10101a;
+  }
+}
+@-ms-keyframes color_changed {
+  from {
+    border-color: #5ff3d1;
+  }
+  to {
+    border-color: #10101a;
+  }
+}
+@-o-keyframes color_changed {
+  from {
+    border-color: #5ff3d1;
+  }
+  to {
+    border-color: #10101a;
+  }
+}
+@keyframes color_changed {
+  from {
+    border-color: #5ff3d1;
+  }
+  to {
+    border-color: #10101a;
+  }
+}
