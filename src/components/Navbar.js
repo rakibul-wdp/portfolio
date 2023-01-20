@@ -32,7 +32,7 @@ const Navbar = () => {
         </ul>
       </div>
       <a
-        className="absolute right-[55px] top-[50%] translate-y-[-50%] px-[18px] py-[6px] text-[#5ff3d1] hover:text-white transition duration-300 ease-in-out border-2 rounded hover:border-[#5ff3d1] hidden lg:block animation-border"
+        className="absolute right-[55px] top-[50%] translate-y-[-50%] px-[18px] py-[6px] text-[#5ff3d1] hover:text-white transition duration-300 ease-in-out border-[2.8px] rounded hover:border-[#5ff3d1] hidden lg:block animation-border"
         href="https://drive.google.com/file/d/1WfWRhfxRW6lF_4sn2R-ikxTFAwwPK6CE/view?usp=sharing"
         target={"_blank"}
         rel={"noreferrer"}
