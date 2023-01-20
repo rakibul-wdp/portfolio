@@ -1,0 +1,47 @@
+.animation-pipe {
+  animation-name: color_change;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes color_change {
+  from {
+    color: #5ff3d1;
+  }
+  to {
+    color: #10101a;
+  }
+}
+@-moz-keyframes color_change {
+  from {
+    color: #5ff3d1;
+  }
+  to {
+    color: #10101a;
+  }
+}
+@-ms-keyframes color_change {
+  from {
+    color: #5ff3d1;
+  }
+  to {
+    color: #10101a;
+  }
+}
+@-o-keyframes color_change {
+  from {
+    color: #5ff3d1;
+  }
+  to {
+    color: #10101a;
+  }
+}
+@keyframes color_change {
+  from {
+    color: #5ff3d1;
+  }
+  to {
+    color: #10101a;
+  }
+}
