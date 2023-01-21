@@ -1,6 +1,9 @@
-import React from 'react';
-import { SocialIcon } from 'react-social-icons';
-import styled, { keyframes } from 'styled-components';
+import React from "react";
+import Lottie from "react-lottie";
+import { SocialIcon } from "react-social-icons";
+import styled, { keyframes } from "styled-components";
+import animationData2 from "../lotties/laptop.json";
+import animationData from "../lotties/man.json";
 
 const Hero = () => {
   return (
@@ -12,30 +15,30 @@ const Hero = () => {
             <div className="flex flex-row font-semibold text-white text-[50px] md:text-[78px]">
               <p>I'm&nbsp;</p>
               <AnimatedGradientText className="text-[50px] md:text-[78px]">
-                Siddesh.
+                Rakibul.
               </AnimatedGradientText>
             </div>
             <h3 className="font-medium text-white text-[30px] md:text-[44px] leading-8 md:leading-[70px]">
-              I love building for/around web3 tech.
+              I like to write and see code________!
             </h3>
             <span className="text-[#5ff3d1] text-[20px] font-normal leading-5">
-              Full Stack Engineer
+              Full Stack Developer
             </span>
           </div>
           <div className="mt-[20px]">
             <SocialIcon
-              url="https://twitter.com/websidyn"
+              url="https://www.linkedin.com/in/md-rakibul"
               bgColor="#5ff3d1"
               fgColor="#000000"
             />
             <SocialIcon
-              url="https://linkedin.com/in/siddesh-eth"
+              url="https://leetcode.com/rakibul-wdp"
               bgColor="#5ff3d1"
               fgColor="#000000"
               className="mx-[10px]"
             />
             <SocialIcon
-              url="https://github.com/siddesh7"
+              url="https://github.com/rakibul-wdp"
               bgColor="#5ff3d1"
               fgColor="#000000"
             />
@@ -54,22 +57,23 @@ const Hero = () => {
 
 export default Hero;
 
-// const defaultOptions = {
-//   loop: true,
-//   autoplay: true,
-//   animationData: animationData,
-//   rendererSettings: {
-//     preserveAspectRatio: "xMidYMid slice",
-//   },
-// };
-// const defaultOptions2 = {
-//   loop: true,
-//   autoplay: true,
-//   animationData: animationData2,
-//   rendererSettings: {
-//     preserveAspectRatio: "xMidYMid slice",
-//   },
-// };
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
+
+const defaultOptions2 = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData2,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 const hue = keyframes`
  from {
