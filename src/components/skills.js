@@ -28,6 +28,7 @@ const skills = () => {
             </h5>
             <ul className="flex flex-col list-disc pl-[35px] text-[18px] font-light">
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>Python</li>
               <li>HTML/CSS</li>
             </ul>
@@ -36,12 +37,22 @@ const skills = () => {
             <h5 class="text-xl leading-tight font-medium mb-2">
               Frameworks and libraries
             </h5>
-            <ul className="flex flex-col list-disc pl-[35px] text-[18px] font-light">
-              <li>ReactJs</li>
-              <li>Node Js</li>
-              <li>Tailwind CSS</li>
-              <li>Flask</li>
-            </ul>
+            <div className="flex">
+              <ul className="flex flex-col list-disc pl-[35px] text-[18px] font-light">
+                <li>React</li>
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>Next</li>
+                <li>Node</li>
+              </ul>
+              <ul className="flex flex-col list-disc pl-[100px] text-[18px] font-light">
+                <li>TailwindCSS</li>
+                <li>MUI</li>
+                <li>Bootstrap</li>
+                <li>ChakraUI</li>
+                <li>TailwindCSS</li>
+              </ul>
+            </div>
           </div>
           <div class="block p-6 rounded-lg shadow-lg w-full md:w-[30%] border-4 border-[#5ff3d1]">
             <h5 class="text-xl leading-tight font-medium mb-2">
