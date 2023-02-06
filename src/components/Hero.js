@@ -8,7 +8,7 @@ import animationData from "../lotties/man.json";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col relative md:flex-row justify-around  w-[80%] pt-[0px] md:pt-[180px] m-auto h-[90vh]">
+      <div className="flex flex-col relative md:flex-row justify-around  w-[80%] pt-[0px] md:pt-[180px] m-auto h-[70vh]">
         <div className="mr-[40px]">
           <span className="text-[#5ff3d1] text-[20px] font-normal">Hi,</span>
           <div className="leading-[70px]">

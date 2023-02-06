@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../assets/images/rakibul-1.png';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       className="w-[80%] xl:h-[100vh] m-auto text-white text-[24px]"
     >
       <h2 className="text-[#5ff3d1] text-[30px] sm:text-[44px] mb-[0] md:mb-[10px]">
-        \\ &nbsp;About Me
+        <span className="font-bold animation-pipe">||</span> &nbsp;About Me
       </h2>
       <div className="flex flex-col md:flex-row pt-[20px]">
         <div className="w-full md:w-[30%] pt-[20px] hover:scale-105 transition duration-300 ease-in-out flex md:block justify-center">
