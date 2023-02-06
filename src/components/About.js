@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-[80%] xl:h-[100vh] m-auto text-white text-[24px]"
+      className="w-[80%] xl:h-[80vh] m-auto text-white text-[24px]"
     >
       <h2 className="text-[#5ff3d1] text-[30px] sm:text-[44px] mb-[0] md:mb-[10px]">
         <span className="font-bold animation-pipe">||</span> &nbsp;About Me
@@ -20,9 +20,9 @@ const About = () => {
         </div>
         <div className="w-full md:w-[70%] pt-[30px] md:pt-[15px] md:pl-[20px]">
           <p className="text-[18px] md:text-[22px] lg:text-[24px] font-['Arial']">
-            My name is Siddesh and{" "}
+            Myself Md. Rakibul Islam and{" "}
             <span className="text-[#5ff3d1]">
-              I love exploring cool tech,&nbsp;
+              I like to write code and solve problems,&nbsp;
             </span>
             trying to play with it and create some cool shit. I started into
             Programming only when I realised I can basically automate my
