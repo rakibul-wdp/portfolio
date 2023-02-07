@@ -60,7 +60,7 @@ const skills = () => {
             </h5>
             <ul className="flex flex-col list-disc pl-[35px] text-[18px] font-light">
               <li>MongoDB</li>
-              <li>PostgreSQL</li>
+              <li>NoSQL</li>
               <li>Git</li>
               <li>Netlify</li>
               <li>Heroku</li>
