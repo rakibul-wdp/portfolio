@@ -63,7 +63,7 @@ const skills = () => {
               <li>NoSQL</li>
               <li>Git</li>
               <li>Netlify</li>
-              <li>Heroku</li>
+              <li>Render</li>
             </ul>
           </div>
         </div>
