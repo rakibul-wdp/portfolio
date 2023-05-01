@@ -1,19 +1,32 @@
-import { experiences } from "@/constants/experiences";
+import { skills } from "@/constants/skills";
 
 const Page = () => {
   return (
     <div className="w-[85%]">
-      {experiences.map((experience) => (
+      {skills.map((skill) => (
         <div
           className="flex flex-col mb-10 text-white p-5 border-[0.01px] rounded-sm border-gray-500"
-          key={experience.id}
+          key={skill.id}
         >
-          <h3>Programming Languages</h3>
-          <ul className="mt-7 list-disc list-inside">
-            {experience.descriptions.map((des) => (
-              <li key={des.id}>{des.des}</li>
-            ))}
-          </ul>
+          <h3 className="text-2xl">{skill.title}</h3>
+          <div className="px-14 flex justify-start gap-14">
+            <ul className="mt-7 list-disc list-inside">
+              {skill.list[0]
+                .split(", ")
+                .slice(0, 6)
+                .map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+            </ul>
+            <ul className="mt-7 pl-10 list-disc list-inside">
+              {skill.list[0]
+                .split(", ")
+                .slice(6)
+                .map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+            </ul>
+          </div>
         </div>
       ))}
     </div>

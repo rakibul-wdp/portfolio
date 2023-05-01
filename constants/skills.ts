@@ -7,20 +7,18 @@ export const skills = [
   {
     id: 2,
     title: "Frameworks and Libraries",
-    list: ["ReactJS, NextJS, NodeJS, ExpressJS, NestJS, Mongoose, etc"],
+    list: ["ReactJS, NextJS, NodeJS, ExpressJS, NestJS, Mongoose"],
   },
   {
     id: 3,
     title: "Design",
-    list: [
-      "CSS, TailwindCSS, MUI, Bootstrap, Chakra UI, Styled Components, etc",
-    ],
+    list: ["CSS, TailwindCSS, MUI, Bootstrap, Chakra UI, Styled Components"],
   },
   {
     id: 4,
     title: "Databases, Tools and Platform",
     list: [
-      "MongoDB, NoSQL, Git, GitHub, GitLab, Bitbucket, Netlify, Heroku, Vercel, Figma, etc",
+      "MongoDB, NoSQL, Git, GitHub, GitLab, Bitbucket, Netlify, Heroku, Vercel, Figma",
     ],
   },
 ];
