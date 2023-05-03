@@ -33,7 +33,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <ul className="mt-7 list-disc list-inside">
+          <ul className="mt-7 pl-4 list-disc">
             {experience.descriptions.map((des) => (
               <li key={des.id}>{des.des}</li>
             ))}

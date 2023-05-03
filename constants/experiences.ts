@@ -16,15 +16,15 @@ export const experiences = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet. Vitae nostrum accusantium doloremque rerum explicabo assumenda soluta et minima maiores. Ipsum sunt blanditiis maxime distinctio quam alias sapiente ullam velit harum!",
+        des: "Successfully delivered over 8 projects with NextJS 13, Firebase, NodeJS, etc.",
       },
       {
         id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Adeptly solved existing bugs and issues with problem-solving knowledge, and conducted thorough code reviews.",
       },
       {
         id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Effectively communicating with clients to comprehend, analyze, and fulfill their requirements.",
       },
     ],
   },
@@ -39,15 +39,15 @@ export const experiences = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet. Vitae nostrum accusantium doloremque rerum explicabo assumenda soluta et minima maiores. Ipsum sunt blanditiis maxime distinctio quam alias sapiente ullam velit harum!",
+        des: "Transformed user experiences with React.js and Redux integration, driving dynamic features for IG Drones.",
       },
       {
         id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Engineered component optimizations, accelerating project load times for seamless interactions.",
       },
       {
         id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Actively developed multiple IG Drones features, enhancing product functionality and usability.",
       },
     ],
   },
@@ -62,15 +62,15 @@ export const experiences = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Designed, developed, and iteratively enhanced web apps using Next.js and Node.js, driven by direct client feedback.",
       },
       {
         id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Worked on project ATG through innovative feature additions and expert bug fixes, enhancing user experience.",
       },
       {
         id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Built and optimized APIs, orchestrated a robust Node.js and Express.js backend, and stored data in the MongoDB database for seamless and dynamic web experiences.",
       },
     ],
   },
@@ -85,15 +85,7 @@ export const experiences = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
-      },
-      {
-        id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
-      },
-      {
-        id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Build Pizza Delivery Application, To-Do Webapp, Tribute Page, Calculator, Temperature Converter, Portfolio Website, and Landing Page using the latest technologies of JavaScript, React, Nodejs, and MongoDB.",
       },
     ],
   },
@@ -108,15 +100,19 @@ export const experiences = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Designed and developed NFT Marketplace web applications with React.",
       },
       {
         id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Developed backend APIs using Node.js and Mongoose, ensuring integration with the MongoDB database.",
       },
       {
         id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Integrated APIs with managing complex data structures.",
+      },
+      {
+        id: 4,
+        des: "Immersed in the realms of teamwork, intricate problem-solving, and dynamic web tech.",
       },
     ],
   },
