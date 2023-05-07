@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -67,11 +70,27 @@ const contacts = [
 ];
 
 const Contact = () => {
+  const [tooltipVisible, setTooltipVisible] = useState(false);
+
+  const copyClipboard = (label: any) => {
+    navigator.clipboard
+      .writeText(label)
+      .then(() => {
+        setTooltipVisible(true);
+        setTimeout(() => {
+          setTooltipVisible(false);
+        }, 1500);
+      })
+      .catch((err) => {
+        console.log("It's a link and open it in a new tab");
+      });
+  };
+
   return (
     <div className="w-full">
       {contacts.map((contact) => (
         <Link
-          target={contact.link ? "_blank" : "_self"}
+          target={contact.link ? "_blank" : ""}
           href={contact.link ? contact.link : ""}
           key={contact.id}
           className={`flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm ${
@@ -82,7 +101,21 @@ const Contact = () => {
             {contact.icon}
             <span>{contact.label}</span>
           </div>
-          {contact.subIcon}
+          {contact.link ? (
+            <div>{contact.subIcon}</div>
+          ) : (
+            <div
+              onClick={() => copyClipboard(contact.label)}
+              // className="relative"
+            >
+              {contact.subIcon}
+              {tooltipVisible && (
+                <span className="absolute p-1 rounded-xl top-[29rem] left-[23.5rem] bg-black text-white text-sm">
+                  Copied
+                </span>
+              )}
+            </div>
+          )}
         </Link>
       ))}
     </div>
