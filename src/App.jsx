@@ -1,9 +1,31 @@
+import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import Experiences from "./pages/Experiences"
+import Projects from "./pages/Projects"
+import Skills from "./pages/Skills"
+import About from "./components/About"
+import Contact from "./components/Contact"
+
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Experiences />
+    },
+    {
+      path: "/projects",
+      element: <Projects />
+    },
+    {
+      path: "/skills",
+      element: <Skills />
+    },
+  ])
+
   return (
     <div className="grid lg:grid-cols-12 text-center text-white">
-      <h1 className="col-span-3">First</h1>
-      <h1 className="col-span-6">Second</h1>
-      <h1 className="col-span-3">Third</h1>
+      <About />
+      <RouterProvider router={router} />
+      <Contact />
     </div>
   )
 }
