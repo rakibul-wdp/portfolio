@@ -22,7 +22,7 @@ function App() {
   ])
 
   return (
-    <div className="grid lg:grid-cols-12 text-center text-white">
+    <div className="grid lg:grid-cols-12 text-center text-white lg:px-5 xl:px-10">
       <About />
       <RouterProvider router={router} />
       <Contact />

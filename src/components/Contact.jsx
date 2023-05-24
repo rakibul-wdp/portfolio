@@ -11,46 +11,62 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className='col-span-3 mt-36 text-start ml-5'>
-      <div className='flex items-center justify-between text-xl font-bold px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <RxResume />
-        rakibul-resume
-        <FiExternalLink />
+    <div className='col-span-3 mt-36 text-start'>
+      <div className='flex items-center justify-between font-bold px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
+        <div className='flex items-center justify-between'>
+          <RxResume className='mr-3 text-[#5ff3d1]' />
+          <span>rakibul-resume</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
+      </div>
+      <div className='flex items-center justify-between my-2 px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
+        <div className='flex items-center justify-between'>
+          <HiOutlineMail className='mr-3 text-[#5ff3d1]' />
+          <span>rakibul.wdp@gmail.com</span>
+        </div>
+        <MdContentCopy className='text-[#5ff3d1]' />
       </div>
       <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <HiOutlineMail />
-        Email
-        <MdContentCopy />
+        <div className='flex items-center justify-between'>
+          <SlPhone className='mr-3 text-[#5ff3d1]' />
+          <span>+8801580530145</span>
+        </div>
+        <MdContentCopy className='text-[#5ff3d1]' />
+      </div>
+      <div className='flex items-center justify-between my-2 px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
+        <div className='flex items-center justify-between'>
+          <AiOutlineGithub className='mr-3 text-[#5ff3d1]' />
+          <span>github/rakibul-wdp</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
       </div>
       <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <SlPhone />
-        Phone No
-        <MdContentCopy />
+        <div className='flex items-center justify-between'>
+          <SiLeetcode className='mr-3 text-[#5ff3d1]' />
+          <span>leetcode/rakibul-wdp</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
+      </div>
+      <div className='flex items-center justify-between my-2 px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
+        <div className='flex items-center justify-between'>
+          <AiFillLinkedin className='mr-3 text-[#5ff3d1]' />
+          <span>linkedin/rakibul-wdp</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
       </div>
       <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <AiOutlineGithub />
-        GitHub
-        <FiExternalLink />
+        <div className='flex items-center justify-between'>
+          <BsTwitter className='mr-3 text-[#5ff3d1]' />
+          <span>twitter/rakibul_wdp</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
       </div>
-      <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <SiLeetcode />
-        LeetCode
-        <FiExternalLink />
-      </div>
-      <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <AiFillLinkedin />
-        LinkedIn
-        <FiExternalLink />
-      </div>
-      <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <BsTwitter />
-        Twitter
-        <FiExternalLink />
-      </div>
-      <div className='flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
-        <FaFacebookSquare />
-        Facebook
-        <FiExternalLink />
+      <div className='flex items-center justify-between mt-2 px-2 py-1 border-2 border-[#5ff3d1] rounded-sm'>
+        <div className='flex items-center justify-between'>
+          <FaFacebookSquare className='mr-3 text-[#5ff3d1]' />
+          <span>facebook/rakibu.wdp</span>
+        </div>
+        <FiExternalLink className='text-[#5ff3d1]' />
       </div>
     </div>
   )
