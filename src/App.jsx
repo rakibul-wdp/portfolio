@@ -4,6 +4,7 @@ import Projects from "./pages/Projects"
 import Skills from "./pages/Skills"
 import About from "./components/About"
 import Contact from "./components/Contact"
+import Timeline from "./pages/Timeline"
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/skills",
       element: <Skills />
+    },
+    {
+      path: "/timeline",
+      element: <Timeline />
     },
   ])
 

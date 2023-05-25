@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 
-const Skills = () => {
+const Timeline = () => {
   return (
     <div className='col-span-6'>
       <Navbar />
@@ -9,4 +9,4 @@ const Skills = () => {
   )
 }
 
-export default Skills;
+export default Timeline;
