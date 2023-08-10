@@ -4,10 +4,10 @@ import { TiArrowUpThick } from "react-icons/ti";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-[85%]">
       {experiences.map((experience) => (
         <div
-          className="flex flex-col mb-14 text-white px-5"
+          className="flex flex-col mb-10 text-white p-5 border-[0.01px] rounded-sm border-gray-500"
           key={experience.id}
         >
           <div className="flex items-center">
@@ -24,7 +24,7 @@ export default function Home() {
                     {experience.designation}
                   </span>
                 </h1>
-                <h1 className="text-2xl">{experience.companyName}</h1>
+                <h1 className="text-xl">{experience.companyName}</h1>
               </div>
               <div className="h-[70px] flex flex-col items-center justify-between">
                 <p>{experience.end}</p>
@@ -33,7 +33,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <ul className="mt-5 list-disc list-inside">
+          <ul className="mt-7 list-disc list-inside">
             {experience.descriptions.map((des) => (
               <li key={des.id}>{des.des}</li>
             ))}
