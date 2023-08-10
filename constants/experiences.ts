@@ -7,7 +7,8 @@ export const experiences = [
     companyName: "Fiverr",
     role: "Full Stack Developer",
     designation: "Freelancer",
-    timePeriod: "04/2023-Current",
+    start: "Jun 2023",
+    end: "Current",
     descriptions: [
       {
         id: 1,
@@ -29,7 +30,8 @@ export const experiences = [
     companyName: "IG Drones",
     role: "React Developer",
     designation: "Intern",
-    timePeriod: "04/2023-Current",
+    start: "Apr 2023",
+    end: "Jun 2023",
     descriptions: [
       {
         id: 1,
@@ -51,7 +53,8 @@ export const experiences = [
     companyName: "Banao Technologies",
     role: "Full Stack Developer",
     designation: "Intern",
-    timePeriod: "04/2023-Current",
+    start: "Jan 2023",
+    end: "May 2023",
     descriptions: [
       {
         id: 1,
@@ -73,7 +76,8 @@ export const experiences = [
     companyName: "Oasis Infobyte",
     role: "Full Stack Developer",
     designation: "Intern",
-    timePeriod: "04/2023-Current",
+    start: "Jan 2023",
+    end: "Feb 2023",
     descriptions: [
       {
         id: 1,
@@ -95,7 +99,8 @@ export const experiences = [
     companyName: "MetaStart",
     role: "Full Stack Developer",
     designation: "Intern",
-    timePeriod: "04/2023-Current",
+    start: "Sep 2022",
+    end: "Dec 2022",
     descriptions: [
       {
         id: 1,

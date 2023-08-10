@@ -1,5 +1,6 @@
 import { experiences } from "@/constants/experiences";
 import Image from "next/image";
+import { TiArrowUpThick } from "react-icons/ti";
 
 export default function Home() {
   return (
@@ -11,16 +12,25 @@ export default function Home() {
         >
           <div className="flex items-center">
             <Image
-              className="w-20 h-20 rounded-sm"
+              className="w-[70px] rounded-sm"
               src={experience.avatar}
               alt="company logo"
             />
-            <div className="ml-4">
-              <h1 className="text-2xl">{experience.companyName}</h1>
-              <h2 className="text-2xl">
-                {experience.role}{" "}
-                <span className="italic text-sm">{experience.designation}</span>
-              </h2>
+            <div className="w-full ml-4 flex items-center justify-between">
+              <div className="h-[70px] flex flex-col justify-between">
+                <h1 className="text-2xl">
+                  {experience.role}{" "}
+                  <span className="italic text-sm">
+                    {experience.designation}
+                  </span>
+                </h1>
+                <h1 className="text-2xl">{experience.companyName}</h1>
+              </div>
+              <div className="flex flex-col items-center justify-between">
+                <p>{experience.end}</p>
+                <TiArrowUpThick />
+                <p>{experience.start}</p>
+              </div>
             </div>
           </div>
           <ul className="mt-5 list-disc list-inside">
