@@ -23,7 +23,7 @@ export default function RootLayout({
         <Container>
           <Navbar />
           <main className="flex">
-            <div className="basis-1/4">
+            <div className="basis-1/4 hidden lg:block">
               <About />
             </div>
             <div className="basis-3/4">{children}</div>

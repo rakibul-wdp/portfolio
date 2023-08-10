@@ -61,7 +61,7 @@ const contacts = [
 
 const Contact = () => {
   return (
-    <div className="text-start">
+    <div className="w-full">
       {contacts.map((contact) => (
         <div
           key={contact.id}
