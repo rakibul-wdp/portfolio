@@ -1,26 +1,15 @@
+import Threads from "../public/images/threads.png";
+
 export const projects = [
   {
     id: 1,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Threads",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -35,30 +24,17 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 2,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Admin Dashboard",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -73,30 +49,17 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 3,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Threads",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -111,30 +74,17 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 4,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Threads",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -149,30 +99,17 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 5,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Threads",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -187,30 +124,17 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 6,
-    images: [
-      {
-        id: 1,
-        img: "",
-      },
-      {
-        id: 2,
-        img: "",
-      },
-      {
-        id: 3,
-        img: "",
-      },
-    ],
-    projectName: "Fiverr",
+    img: Threads,
+    projectName: "Threads",
     projectStack: "Full Stack",
-    gitHub: "",
-    preview: "",
+    gitHub: "https://github.com/rakibul-wdp/threads",
+    preview: "https://threads-rakibul-wdp.vercel.app",
     start: "Jun 2023",
-    end: "Current",
+    end: "Jul 2023",
     descriptions: [
       {
         id: 1,
@@ -225,6 +149,6 @@ export const projects = [
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
     ],
-    technologies: ["React", "NodeJS", "MongoDB"],
+    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
 ];
