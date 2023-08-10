@@ -8,20 +8,42 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex items-center justify-around mt-5 text-2xl font-semibold text-[#5ff3d1] mb-14">
-      {navLinks.map((navLink) => {
-        const isActive = pathname === navLink.route;
+    <nav className="mt-5 text-2xl font-semibold text-[#5ff3d1] mb-14">
+      <div className="lg:hidden flex items-center justify-center gap-5">
+        {navLinks.map((navLink) => {
+          const isActive = pathname === navLink.route;
 
-        return (
-          <Link
-            className={isActive ? "italic underline decoration-[#5ff3d1]" : ""}
-            href={navLink.route}
-            key={navLink.id}
-          >
-            {navLink.label}
-          </Link>
-        );
-      })}
+          return (
+            <Link
+              className={
+                isActive ? "italic underline decoration-[#5ff3d1]" : ""
+              }
+              href={navLink.route}
+              key={navLink.id}
+            >
+              {navLink.label}
+            </Link>
+          );
+        })}
+      </div>
+
+      <div className="hidden lg:flex items-center justify-center gap-10">
+        {navLinks.slice(1).map((navLink) => {
+          const isActive = pathname === navLink.route;
+
+          return (
+            <Link
+              className={
+                isActive ? "italic underline decoration-[#5ff3d1]" : ""
+              }
+              href={navLink.route}
+              key={navLink.id}
+            >
+              {navLink.label}
+            </Link>
+          );
+        })}
+      </div>
     </nav>
   );
 };
