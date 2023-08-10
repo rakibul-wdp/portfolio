@@ -26,7 +26,7 @@ export default function Home() {
                 </h1>
                 <h1 className="text-2xl">{experience.companyName}</h1>
               </div>
-              <div className="flex flex-col items-center justify-between">
+              <div className="h-[70px] flex flex-col items-center justify-between">
                 <p>{experience.end}</p>
                 <TiArrowUpThick />
                 <p>{experience.start}</p>

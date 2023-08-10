@@ -1,9 +1,13 @@
+import Banao from "../public/images/banao.jpeg";
+import Fiverr from "../public/images/fiverr.jpeg";
 import IGDrones from "../public/images/ig-drones.jpeg";
+import Metastart from "../public/images/metastart.jpeg";
+import Oasis from "../public/images/oasis.jpeg";
 
 export const experiences = [
   {
     id: 1,
-    avatar: IGDrones,
+    avatar: Fiverr,
     companyName: "Fiverr",
     role: "Full Stack Developer",
     designation: "Freelancer",
@@ -49,7 +53,7 @@ export const experiences = [
   },
   {
     id: 3,
-    avatar: IGDrones,
+    avatar: Banao,
     companyName: "Banao Technologies",
     role: "Full Stack Developer",
     designation: "Intern",
@@ -72,7 +76,7 @@ export const experiences = [
   },
   {
     id: 4,
-    avatar: IGDrones,
+    avatar: Oasis,
     companyName: "Oasis Infobyte",
     role: "Full Stack Developer",
     designation: "Intern",
@@ -95,7 +99,7 @@ export const experiences = [
   },
   {
     id: 5,
-    avatar: IGDrones,
+    avatar: Metastart,
     companyName: "MetaStart",
     role: "Full Stack Developer",
     designation: "Intern",
