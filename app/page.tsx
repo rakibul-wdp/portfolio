@@ -5,10 +5,13 @@ export default function Home() {
   return (
     <main>
       {experiences.map((experience) => (
-        <div className="text-start text-white px-5" key={experience.id}>
+        <div
+          className="flex flex-col mb-14 text-white px-5"
+          key={experience.id}
+        >
           <div className="flex items-center">
             <Image
-              className="w-20 h-20 rounded-3xl"
+              className="w-20 h-20 rounded-sm"
               src={experience.avatar}
               alt="company logo"
             />
@@ -16,11 +19,11 @@ export default function Home() {
               <h1 className="text-2xl">{experience.companyName}</h1>
               <h2 className="text-2xl">
                 {experience.role}{" "}
-                <span className="italic text-lg">{experience.designation}</span>
+                <span className="italic text-sm">{experience.designation}</span>
               </h2>
             </div>
           </div>
-          <ul>
+          <ul className="mt-5 list-disc list-inside">
             {experience.descriptions.map((des) => (
               <li key={des.id}>{des.des}</li>
             ))}
