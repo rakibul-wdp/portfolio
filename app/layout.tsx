@@ -22,11 +22,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <Container>
           <Navbar />
-          <main className="flex">
-            <div className="basis-1/4 hidden lg:block">
+          <main className="flex lg:gap-14">
+            <div className="basis-1/3 hidden lg:block">
               <About />
             </div>
-            <div className="basis-3/4">{children}</div>
+            <div className="basis-2/3">{children}</div>
           </main>
         </Container>
       </body>

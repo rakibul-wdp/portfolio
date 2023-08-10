@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 const About = () => {
   return (
-    <section className="text-white flex flex-col items-center justify-center border-[0.01px] border-gray-500 p-5">
+    <section className="text-white flex flex-col items-center justify-center border-[0.01px] rounded-sm border-gray-500 p-8">
       <Image
         className="w-32 h-32 rounded-full"
         src={Rakibul}
