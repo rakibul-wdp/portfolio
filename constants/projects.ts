@@ -1,4 +1,4 @@
-import Threads from "../public/images/threads.png";
+import Threads from "../public/images/ticoli.png";
 
 export const projects = [
   {
@@ -23,8 +23,11 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 2,
@@ -48,8 +51,11 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 3,
@@ -73,8 +79,11 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 4,
@@ -98,8 +107,11 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 5,
@@ -123,8 +135,11 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
   {
     id: 6,
@@ -148,7 +163,10 @@ export const projects = [
         id: 3,
         des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
       },
+      {
+        id: 4,
+        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+      },
     ],
-    technologies: ["NextJS", "NodeJS", "MongoDB"],
   },
 ];
