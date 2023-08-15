@@ -16,7 +16,9 @@ const Navbar = () => {
           return (
             <Link
               className={
-                isActive ? "italic underline decoration-[#5ff3d1]" : ""
+                isActive
+                  ? "italic underline underline-offset-2 decoration-1 decoration-[#5ff3d1]"
+                  : ""
               }
               href={navLink.route}
               key={navLink.id}
@@ -34,7 +36,9 @@ const Navbar = () => {
           return (
             <Link
               className={
-                isActive ? "italic underline decoration-[#5ff3d1]" : ""
+                isActive
+                  ? "italic underline underline-offset-2 decoration-1 decoration-[#5ff3d1]"
+                  : ""
               }
               href={navLink.route}
               key={navLink.id}
