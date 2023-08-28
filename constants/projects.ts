@@ -1,4 +1,4 @@
-import Threads from "../public/images/ticoli.png";
+import Threads from "../public/images/threads.png";
 
 export const projects = [
   {
@@ -13,19 +13,15 @@ export const projects = [
     descriptions: [
       {
         id: 1,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet. Vitae nostrum accusantium doloremque rerum explicabo assumenda soluta et minima maiores. Ipsum sunt blanditiis maxime distinctio quam alias sapiente ullam velit harum!",
+        des: "Build a social web app like Twitter using Next.js 13 with server-side rendering for enhanced performance.",
       },
       {
         id: 2,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
+        des: "Integrated MongoDB to manage intricate data schemas and seamlessly handle multiple data sources.",
       },
       {
         id: 3,
-        des: "Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet.",
-      },
-      {
-        id: 4,
-        des: "Technologies: NextJS, NodeJS, MongoDB, etc",
+        des: "Designed captivating UIs with TailwindCSS and implemented Clerk for authentication, ensuring visuals security.",
       },
     ],
   },
