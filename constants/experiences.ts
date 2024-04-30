@@ -2,7 +2,6 @@ import Banao from "../public/images/banao.jpeg";
 import Fiverr from "../public/images/fiverr.jpeg";
 import IGDrones from "../public/images/ig-drones.jpeg";
 import Metastart from "../public/images/metastart.jpeg";
-import Oasis from "../public/images/oasis.jpeg";
 
 export const experiences = [
   {
@@ -76,21 +75,6 @@ export const experiences = [
   },
   {
     id: 4,
-    avatar: Oasis,
-    companyName: "Oasis Infobyte",
-    role: "Full Stack Developer",
-    designation: "Intern",
-    start: "Jan 2023",
-    end: "Feb 2023",
-    descriptions: [
-      {
-        id: 1,
-        des: "Build Pizza Delivery Application, To-Do Webapp, Tribute Page, Calculator, Temperature Converter, Portfolio Website, and Landing Page using the latest technologies of JavaScript, React, Nodejs, and MongoDB.",
-      },
-    ],
-  },
-  {
-    id: 5,
     avatar: Metastart,
     companyName: "MetaStart",
     role: "Full Stack Developer",
