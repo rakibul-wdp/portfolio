@@ -1,9 +1,15 @@
 import danielxavier887Img from "../public/images/danielxavier887.webp";
+import haidari23 from "../public/images/haidari23.png";
+import mfHoldings from "../public/images/mf_holdings.png";
+import kevinmiller from "../public/images/kevinmiller7201.png";
+import nftyco from "../public/images/nftyco.png";
+import suhasdas from "../public/images/suhasdas.png";
+import yongyi from "../public/images/yongyi520.png";
 
 export const reviews = [
   {
     id: 1,
-    avatar: danielxavier887Img,
+    avatar: haidari23,
     reviewer: "haidari23",
     country: "United States",
     rating: 5,
@@ -12,7 +18,7 @@ export const reviews = [
   },
   {
     id: 2,
-    avatar: danielxavier887Img,
+    avatar: haidari23,
     reviewer: "haidari23",
     country: "United States",
     rating: 5,
@@ -21,7 +27,7 @@ export const reviews = [
   },
   {
     id: 3,
-    avatar: danielxavier887Img,
+    avatar: mfHoldings,
     reviewer: "mf_holdings",
     country: "United States",
     rating: 5,
@@ -30,7 +36,7 @@ export const reviews = [
   },
   {
     id: 4,
-    avatar: danielxavier887Img,
+    avatar: kevinmiller,
     reviewer: "kevinmiller7201",
     country: "United States",
     rating: 5,
@@ -39,7 +45,7 @@ export const reviews = [
   },
   {
     id: 5,
-    avatar: danielxavier887Img,
+    avatar: nftyco,
     reviewer: "nftyco",
     country: "Mexico",
     rating: 5,
@@ -67,7 +73,7 @@ export const reviews = [
   },
   {
     id: 8,
-    avatar: danielxavier887Img,
+    avatar: suhasdas,
     reviewer: "suhasdas",
     country: "United States",
     rating: 5,
@@ -76,7 +82,7 @@ export const reviews = [
   },
   {
     id: 9,
-    avatar: danielxavier887Img,
+    avatar: yongyi,
     reviewer: "yongyi520",
     country: "United States",
     rating: 5,
