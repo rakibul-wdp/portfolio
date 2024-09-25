@@ -11,8 +11,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    route: "/review",
-    label: "Client Review",
+    route: "/testimonials",
+    label: "Testimonials",
   },
   {
     id: 4,

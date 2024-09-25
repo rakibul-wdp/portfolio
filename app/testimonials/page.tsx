@@ -1,9 +1,9 @@
 import { reviews } from "@/constants/reviews";
 import Image from "next/image";
-import { TiStar } from "react-icons/ti";
 import { RxDividerVertical } from "react-icons/rx";
+import { TiStar } from "react-icons/ti";
 
-const Review = () => {
+const Testimonials = () => {
   return (
     <div>
       {reviews.map((review) => (
@@ -43,4 +43,4 @@ const Review = () => {
   );
 };
 
-export default Review;
+export default Testimonials;
