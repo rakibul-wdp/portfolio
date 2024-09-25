@@ -18,9 +18,10 @@ const About = () => {
       </div>
 
       <p className="my-5 text-justify">
-        I'm Md. Rakibul Islam. I like to write and see code. I'm a full-stack
-        developer. I have four internship and freelancing experiences as a
-        full-stack developer.
+        I'm Md. Rakibul Islam. I like to write and see code. Also, I love to
+        teach (YouTube), what I learn. I'm a full-stack developer. I have 3
+        internships and freelancing experience (1 year+) as a full-stack
+        developer.
       </p>
 
       <Contact />

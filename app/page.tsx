@@ -4,7 +4,7 @@ import { TiArrowUpThick } from "react-icons/ti";
 
 export default function Home() {
   return (
-    <main className="w-[85%]">
+    <main>
       {experiences.map((experience) => (
         <div
           className="flex flex-col mb-10 text-white p-5 border-[0.01px] rounded-sm border-gray-500"

@@ -3,7 +3,7 @@ import { TiArrowUpThick } from "react-icons/ti";
 
 const Page = () => {
   return (
-    <div className="w-[85%]">
+    <div>
       {timelines.map((timeline) => (
         <>
           <div

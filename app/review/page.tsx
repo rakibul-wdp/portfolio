@@ -5,7 +5,7 @@ import { RxDividerVertical } from "react-icons/rx";
 
 const Review = () => {
   return (
-    <div className="w-[85%]">
+    <div>
       {reviews.map((review) => (
         <div
           className="flex flex-col mb-10 text-white p-5 border-[0.01px] rounded-sm border-gray-500"

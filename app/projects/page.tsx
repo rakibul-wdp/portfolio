@@ -6,7 +6,7 @@ import { TiArrowUpThick } from "react-icons/ti";
 
 const Page = () => {
   return (
-    <main className="w-[85%]">
+    <main>
       {projects.map((project) => (
         <div
           className="flex flex-col mb-10 text-white border-[0.01px] rounded-sm border-gray-500"
