@@ -1,7 +1,7 @@
 import { timelines } from "@/constants/timeline";
 import { TiArrowUpThick } from "react-icons/ti";
 
-const Page = () => {
+const Timeline = () => {
   return (
     <div>
       {timelines.map((timeline) => (
@@ -37,4 +37,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Timeline;

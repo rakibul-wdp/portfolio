@@ -1,6 +1,6 @@
 import { skills } from "@/constants/skills";
 
-const Page = () => {
+const Skills = () => {
   return (
     <div>
       {skills.map((skill) => (
@@ -33,4 +33,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Skills;

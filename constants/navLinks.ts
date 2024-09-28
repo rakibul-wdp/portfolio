@@ -11,27 +11,27 @@ export const navLinks = [
   },
   {
     id: 3,
+    route: "/youtube",
+    label: "YouTube",
+  },
+  {
+    id: 4,
     route: "/projects",
     label: "Projects",
   },
   {
-    id: 4,
+    id: 5,
     route: "/skills",
     label: "Skills",
   },
   {
-    id: 5,
+    id: 6,
     route: "/timeline",
     label: "Timeline",
   },
   {
-    id: 6,
+    id: 7,
     route: "/connect",
     label: "Connect",
-  },
-  {
-    id: 7,
-    route: "/blog",
-    label: "Blog",
   },
 ];

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
 import { TiArrowUpThick } from "react-icons/ti";
 
-const Page = () => {
+const Projects = () => {
   return (
     <main>
       {projects.map((project) => (
@@ -59,4 +59,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Projects;
