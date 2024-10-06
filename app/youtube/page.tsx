@@ -11,6 +11,7 @@ const YouTube = () => {
       <div className="mt-5 flex items-center justify-start gap-2">
         <p>Checkout my YouTube Channel 👉</p>
         <Link
+          target="_blank"
           href="https://www.youtube.com/@rakibul-wdp"
           className="bg-[#5ff3d1] px-2 rounded-lg flex items-center justify-center gap-1"
         >
