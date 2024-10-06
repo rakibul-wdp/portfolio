@@ -37,3 +37,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+/*
+font-family from boot dev
+font-family: Arcuata,serif;
+*/

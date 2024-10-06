@@ -8,7 +8,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="mt-5 text-xl text-[#5ff3d1] mb-8 pb-6 sticky top-0">
+    <nav className="my-5 text-xl text-[#5ff3d1] pb-6 sticky top-0">
       <div className="flex items-center justify-center gap-5 lg:gap-10">
         {navLinks.map((navLink) => {
           const isActive = pathname === navLink.route;
