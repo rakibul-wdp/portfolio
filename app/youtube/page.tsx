@@ -9,7 +9,7 @@ const YouTube = () => {
         channel where I teach HTML, CSS, JavaScript, and other technologies.
       </p>
       <div className="mt-5 flex items-center justify-start gap-2">
-        <p>Checkout my YouTube Channel 👉</p>
+        <p>Check out my YouTube channel 👉</p>
         <Link
           target="_blank"
           href="https://www.youtube.com/@rakibul-wdp"
