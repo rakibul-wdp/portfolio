@@ -4,13 +4,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdContentCopy } from "react-icons/md";
 import { RxResume } from "react-icons/rx";
-import { SiLeetcode } from "react-icons/si";
+import { SiCodeforces, SiLeetcode } from "react-icons/si";
 import { SlPhone } from "react-icons/sl";
+import { TbBrandFiverr } from "react-icons/tb";
 
 const contacts = [
   {
@@ -41,29 +42,50 @@ const contacts = [
   },
   {
     id: 5,
+    link: "https://codeforces.com/profile/rakibul-wdp",
+    label: "codeforces/rakibul-wdp",
+    icon: <SiCodeforces className="mr-3 text-[#5ff3d1]" />,
+    subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
+  },
+  {
+    id: 6,
     link: "https://leetcode.com/rakibul-wdp",
     label: "leetcode/rakibul-wdp",
     icon: <SiLeetcode className="mr-3 text-[#5ff3d1]" />,
     subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
   },
   {
-    id: 6,
+    id: 7,
+    link: "https://www.fiverr.com/rakibul6631",
+    label: "fiverr/rakibul6631",
+    icon: <TbBrandFiverr className="mr-3 text-[#5ff3d1]" />,
+    subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
+  },
+  {
+    id: 8,
     link: "https://www.linkedin.com/in/rakibul-wdp",
     label: "linkedin/rakibul-wdp",
     icon: <AiFillLinkedin className="mr-3 text-[#5ff3d1]" />,
     subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
   },
   {
-    id: 7,
-    link: "https://twitter.com/rakibul_wdp",
+    id: 9,
+    link: "https://www.youtube.com/@rakibul-wdp",
+    label: "youtube/rakibul-wdp",
+    icon: <FaYoutube className="mr-3 text-[#5ff3d1]" />,
+    subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
+  },
+  {
+    id: 10,
+    link: "https://x.com/rakibul_wdp",
     label: "twitter/rakibul_wdp",
     icon: <BsTwitter className="mr-3 text-[#5ff3d1]" />,
     subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
   },
   {
-    id: 8,
-    link: "https://www.facebook.com/rakibu.wdp",
-    label: "facebook/rakibu.wdp",
+    id: 11,
+    link: "https://www.facebook.com/rakibul.wdp",
+    label: "facebook/rakibul.wdp",
     icon: <FaFacebookSquare className="mr-3 text-[#5ff3d1]" />,
     subIcon: <FiExternalLink className="text-[#5ff3d1]" />,
   },
@@ -87,14 +109,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full grid grid-cols-2 gap-3.5 items-center justify-center">
       {contacts.map((contact) => (
         <Link
           target={contact.link ? "_blank" : ""}
           href={contact.link ? contact.link : ""}
           key={contact.id}
           className={`flex items-center justify-between px-2 py-1 border-2 border-[#5ff3d1] rounded-sm ${
-            contact.id % 2 === 0 ? "my-2" : ""
+            contact.id % 2 === 0 ? "" : ""
           }`}
         >
           <div className="flex items-center justify-between">
@@ -110,7 +132,7 @@ const Contact = () => {
             >
               {contact.subIcon}
               {tooltipVisible && (
-                <span className="absolute p-1 rounded-xl top-[29rem] left-[23.5rem] bg-black text-white text-sm">
+                <span className="absolute p-1 rounded-xl top-[19rem] left-[21.7rem] bg-gradient-to-r from-purple-600 to-blue-500 text-white border border-purple-500 shadow-2xl transform hover:scale-105 transition-transform duration-300 ease-in-out text-sm">
                   Copied
                 </span>
               )}
