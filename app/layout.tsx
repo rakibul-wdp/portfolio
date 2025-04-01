@@ -41,4 +41,7 @@ export default function RootLayout({
 /*
 font-family from boot dev
 font-family: Arcuata,serif;
+
+font-family from one of developer
+font-family: "JetBrains Mono", monospace;
 */
