@@ -11,7 +11,7 @@ export const experiences = [
     role: "Full Stack Developer",
     designation: "Freelancer",
     start: "Jun 2023",
-    end: "Current",
+    end: "May 2025",
     descriptions: [
       {
         id: 1,
@@ -57,7 +57,7 @@ export const experiences = [
     role: "Full Stack Developer",
     designation: "Intern",
     start: "Jan 2023",
-    end: "May 2023",
+    end: "Jun 2023",
     descriptions: [
       {
         id: 1,
