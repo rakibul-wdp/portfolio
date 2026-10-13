@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning>
         <Container>
           <Navbar />
           <main className="w-[90%] max-w-[750px] mx-auto">{children}</main>

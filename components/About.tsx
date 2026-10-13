@@ -6,9 +6,10 @@ const About = () => {
   return (
     <section className="text-white flex flex-col items-center justify-center sticky top-28 border-[0.01px] rounded-sm border-gray-500 p-6">
       <Image
-        className="w-60 h-60 rounded-full"
+        className="h-60 w-60 rounded-full object-cover"
         src={Rakibul}
         alt="Md. Rakibul Islam"
+        sizes="240px"
       />
       <div className="text-center mt-3">
         <h1 className="text-3xl font-bold mb-1">Md. Rakibul Islam</h1>
