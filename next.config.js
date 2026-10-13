@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  experimental: {
+    useTypeScriptCli: false,
+  },
+  turbopack: {
+    root: __dirname,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

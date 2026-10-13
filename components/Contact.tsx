@@ -94,7 +94,7 @@ const contacts = [
 const Contact = () => {
   const [tooltipVisible, setTooltipVisible] = useState(false);
 
-  const copyClipboard = (label: any) => {
+  const copyClipboard = (label: string) => {
     navigator.clipboard
       .writeText(label)
       .then(() => {
@@ -103,7 +103,7 @@ const Contact = () => {
           setTooltipVisible(false);
         }, 1500);
       })
-      .catch((err) => {
+      .catch(() => {
         console.log("It's a link and open it in a new tab");
       });
   };

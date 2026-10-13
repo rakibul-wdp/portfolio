@@ -24,12 +24,12 @@ const Testimonials = () => {
           </div>
           <div className="my-5 flex items-center justify-start gap-1">
             <div className="flex items-center justify-center">
-              {Array.from(Array(review.rating).keys()).map((el) => (
-                <TiStar />
+              {Array.from({ length: review.rating }, (_, index) => (
+                <TiStar key={`filled-${index}`} />
               ))}
               {review.rating < 5 &&
-                Array.from(Array(5 - review.rating).keys()).map((el) => (
-                  <TiStar />
+                Array.from({ length: 5 - review.rating }, (_, index) => (
+                  <TiStar key={`empty-${index}`} />
                 ))}
               <p className="text-sm font-medium ml-0.5">{review.rating}</p>
             </div>
