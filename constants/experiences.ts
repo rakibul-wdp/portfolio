@@ -1,4 +1,5 @@
 import Banao from "../public/images/banao.jpeg";
+import Factiiv from "../public/images/factiiv.svg";
 import Fiverr from "../public/images/fiverr.jpeg";
 import IGDrones from "../public/images/ig-drones.jpeg";
 import Metastart from "../public/images/metastart.jpeg";
@@ -6,6 +7,38 @@ import Metastart from "../public/images/metastart.jpeg";
 export const experiences = [
   {
     id: 1,
+    avatar: Factiiv,
+    companyName: "Factiiv Inc.",
+    role: "Full Stack Developer",
+    designation: "Full-time",
+    start: "Apr 2025",
+    end: "Present",
+    descriptions: [
+      {
+        id: 1,
+        des: "Developed full-stack web applications across frontend and backend, building scalable Node.js and Express.js APIs with PostgreSQL and Prisma.",
+      },
+      {
+        id: 2,
+        des: "Built Klikbase, a Trello-style productivity platform for task management, notes, assignments, monitoring, and team collaboration.",
+      },
+      {
+        id: 3,
+        des: "Improved RedSpectrum's frontend and UI/UX, delivering clean, responsive interfaces and reliable API integrations.",
+      },
+      {
+        id: 4,
+        des: "Developed Myndy's web frontend and complete React Native mobile app for iOS and Android, while contributing to backend services and payment integration management.",
+      },
+    ],
+    links: [
+      { label: "Klikbase", href: "https://www.klikbase.com/" },
+      { label: "RedSpectrum", href: "https://www.theredspectrum.com/" },
+      { label: "Myndy", href: "https://myndy.ai/" },
+    ],
+  },
+  {
+    id: 2,
     avatar: Fiverr,
     companyName: "Fiverr",
     role: "Full Stack Developer",
@@ -28,7 +61,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     avatar: IGDrones,
     companyName: "IG Drones",
     role: "React Developer",
@@ -51,7 +84,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     avatar: Banao,
     companyName: "Banao Technologies",
     role: "Full Stack Developer",
@@ -74,7 +107,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     avatar: Metastart,
     companyName: "MetaStart",
     role: "Full Stack Developer",
